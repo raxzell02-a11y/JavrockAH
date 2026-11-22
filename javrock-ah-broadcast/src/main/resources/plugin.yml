@@ -1,0 +1,16 @@
+name: JavrockAHBroadcast
+version: 1.0.0
+main: id.javrock.ahbroadcast.JavrockAHBroadcastPlugin
+api-version: '1.21'
+author: Javrock SMP
+description: Menyiarkan notifikasi saat pemain menjual barang di Crazy Auctions (/ah sell).
+softdepend: [CrazyAuctions]
+commands:
+  jahb:
+    description: Kelola plugin JavrockAHBroadcast
+    aliases: [ahbroadcast, javrockah]
+    permission: javrockahbroadcast.admin
+permissions:
+  javrockahbroadcast.admin:
+    description: Akses perintah reload dan tes siaran
+    default: op

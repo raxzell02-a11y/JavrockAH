@@ -1,0 +1,32 @@
+# Konfigurasi JavrockAHBroadcast untuk Javrock SMP (Paper 1.21.11)
+# Gunakan kode warna legacy (&1, &9, &b, &3, &f, &7, &8) dan small caps.
+
+settings:
+  # Perintah yang dipantau untuk penjualan item di Crazy Auctions
+  watched-commands:
+    - ah
+    - ca
+    - auction
+    - crazyauctions
+
+  # Sub-perintah penjualan (misalnya /ah sell <harga>)
+  sell-subcommands:
+    - sell
+
+  # Jeda minimal antar siaran untuk pemain yang sama (detik) agar tidak spam
+  cooldown-seconds: 3
+
+  # Format mata uang yang ditampilkan pada %price%
+  currency-symbol: '$'
+
+  # Jika true, gunakan nama custom item bila ada; jika false, gunakan nama material
+  prefer-custom-item-name: true
+
+  # Aktifkan font small caps otomatis pada nama barang
+  smallcaps-item-name: true
+
+messages:
+  prefix: '&9&lᴊᴀᴠʀᴏᴄᴋ &8» '
+  sell-broadcast: '&9&lᴊᴀᴠʀᴏᴄᴋ &8» &b%player% &7ᴛᴇʟᴀʜ ᴍᴇɴᴊᴜᴀʟ ʙᴀʀᴀɴɢ &3%item% &8(&3%amount%x&8) &7ꜱᴇʜᴀʀɢᴀ &b%price% &7ᴅɪ &3/ᴀʜ'
+  reloaded: '&bᴋᴏɴꜰɪɢᴜʀᴀꜱɪ ᴊᴀᴠʀᴏᴄᴋᴀʜʙʀᴏᴀᴅᴄᴀꜱᴛ ʙᴇʀʜᴀꜱɪʟ ᴅɪᴍᴜᴀᴛ ᴜʟᴀɴɢ.'
+  no-permission: '&cᴋᴀᴍᴜ ᴛɪᴅᴀᴋ ᴍᴇᴍɪʟɪᴋɪ ɪᴢɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ.'
